@@ -1,0 +1,3 @@
+function FindProxyForURL(url, host) {
+    return "SOCKS5 123.0.24.154:9090; SOCKS5 118.179.205.159:9090; SOCKS5 202.91.41.102:1080; DIRECT";
+}
